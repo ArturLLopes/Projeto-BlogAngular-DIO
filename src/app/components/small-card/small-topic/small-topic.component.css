@@ -1,0 +1,28 @@
+.small-card__photo-content {
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px solid rgba(204, 202, 202, 0.54);
+  margin-top: 5px;
+
+}
+
+.small-card__photo-content > img {
+  display: flex;
+  align-items: flex-start;
+  height: 90px;
+  object-fit: cover;
+}
+
+.small-card__content__title{
+  margin-left:10px;
+
+}
+.small-card__content__title > p {
+  color: gray;
+  font-weight: 300;
+}

@@ -1,0 +1,36 @@
+.container__samll-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.3s;
+}
+
+.container__samll-card > h1 {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.small-card__photo{
+  display: flex;
+  gap: 10px;
+
+}
+.small-card__photo > img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  weight:80px;
+  height:50px;
+
+}

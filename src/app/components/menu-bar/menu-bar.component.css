@@ -1,0 +1,20 @@
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+.container__menu-bar > ul > li {
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.container__menu-bar > ul > li > a {
+  cursor: pointer;
+
+}
+.container__menu-bar > ul > li:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+  text-decoration: underline;
+
+}
