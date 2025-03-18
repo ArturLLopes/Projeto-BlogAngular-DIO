@@ -1,0 +1,20 @@
+
+/* Responsividade */
+@media (max-width: 700px) {
+  .container__menu-title h1 {
+    margin: 15px auto;
+    font-size: 80px;
+    font-weight: 700;
+
+  }
+}
+
+@media (max-width: 460px) {
+
+  .container__menu-title h1 {
+    margin: 15px auto;
+    font-size: 50px;
+    font-weight: 700;
+
+  }
+}

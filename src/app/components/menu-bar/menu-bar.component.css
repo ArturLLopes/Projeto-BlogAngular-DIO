@@ -1,20 +1,26 @@
 .container__menu-bar > ul {
   display: flex;
   flex-direction: row;
+  gap: 60px; /* Substitui margin-right */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
 .container__menu-bar > ul > li {
-  margin-right: 60px;
   font-size: 20px;
   font-weight: 900;
+  transition: transform 0.3s ease-in-out;
 }
 
 .container__menu-bar > ul > li > a {
+  display: block; /* Garante melhor área de clique */
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
-
 }
-.container__menu-bar > ul > li:hover {
-  transform: scale(1.5);
-  transition: transform 0.5s;
-  text-decoration: underline;
 
+.container__menu-bar > ul > li:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
 }
