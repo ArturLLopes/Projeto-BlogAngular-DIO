@@ -1,59 +1,52 @@
-# ProjetoBlog
+# [Blog Angular]() - DIO 📚
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Projeto desenvolvido durante o bootcamp da Digital Innovation One (DIO), implementando um blog moderno com funcionalidades completas usando Angular.
 
-## Development server
+![Preview do Blog](https://github.com/user-attachments/assets/549a535e-ba3b-440d-8b01-a67516b1b98d)
 
-To start a local development server, run:
+## Sobre o Projeto 💡
 
+Este blog foi desenvolvido como projeto prático para consolidar os conhecimentos em Angular, abordando:
+
+- Arquitetura de componentes reutilizáveis
+- Gerenciamento de estado com RxJS
+- Rotas protegidas e autenticação JWT
+- Formulários reativos complexos
+- Boas práticas de desenvolvimento Angular
+
+## Funcionalidades Principais 🚀
+
+| Feature               | Tecnologias Envolvidas       | Descrição                                  |
+|-----------------------|------------------------------|--------------------------------------------|
+| Listagem de posts     | Angular Material, RxJS       | Paginação e filtros inteligentes           |
+| Sistema de autenticação | JWT, Guards, Interceptors  | Controle de acesso a rotas protegidas      |
+| CRUD completo         | JSON Server, Reactive Forms  | Criação, edição e exclusão de posts        |
+| Busca inteligente     | Pipe Operators, Debounce     | Pesquisa instantânea com otimização        |
+| Design responsivo     | Flex Layout, SCSS            | Adaptação perfeita para todos dispositivos |
+
+## Tecnologias Utilizadas 🛠️
+
+### Frontend Principal
+- **Angular 17+** (Core Framework)
+- TypeScript (Tipagem estática)
+- RxJS (Programação reativa)
+- Angular Material (Componentes UI)
+- SCSS (Estilização avançada)
+- Angular Router (Navegação SPA)
+
+### Infraestrutura
+- JSON Server (Mock API)
+- JWT (Autenticação)
+- GitHub (Versionamento)
+- GitHubPages (Deploy)
+
+### Ferramentas de Desenvolvimento
+- Angular CLI (Scaffolding)
+- ESLint (Padronização de código)
+- Prettier (Formatação automática)
+
+
+
+1. Clone o repositório:
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/ArturLLopes/Projeto-BlogAngular-DIO.git
