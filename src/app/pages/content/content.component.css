@@ -1,0 +1,32 @@
+.container__content {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__cover {
+
+}
+
+.content__cover > img {
+  width: 500px;
+  min-white: 500px;
+  height: 400px;
+  mix-blend-mode: multiply;
+}
+
+.content__description {
+  width:400px;
+  min-height:300px;
+
+}
+
+.content__description > p {
+  gap:10px;
+  margin: 10px 0 10px;
+  text-align:justify;
+
+}

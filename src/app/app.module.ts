@@ -8,8 +8,8 @@ import { MenuTitleComponent } from './components/menu-title/menu-title.component
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { SmallTopicComponent } from './components/small-card/small-topic/small-topic.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,9 @@ import { FooterComponent } from './components/footer/footer.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    SmallTopicComponent,
-    FooterComponent
+    FooterComponent,
+    ContentComponent,
+
   ],
   imports: [
     BrowserModule,

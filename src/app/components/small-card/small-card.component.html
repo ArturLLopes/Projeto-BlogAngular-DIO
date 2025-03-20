@@ -1,8 +1,8 @@
 <div class="container__small-card">
 
   <div class="small-card__photo">
-    <h1>Eventos</h1>
-    <img src="https://e7.pngegg.com/pngimages/276/700/png-clipart-christian-cross-christianity-jerusalem-cross-symbol-christian-cross-angle-christianity-thumbnail.png" alt="Imagem do card" width="30px" height="30px">
+    <h1>{{cardTitle}}</h1>
+    <img src="{{photoCover}}" alt="Imagem do card" width="30px" height="30px">
   </div>
 
 
@@ -10,9 +10,25 @@
 
   <div class="small-card">
 
-    <app-small-topic></app-small-topic>
-    <app-small-topic [style.background-color]="'#E4DAEE'" ></app-small-topic>
-    <app-small-topic [style.background-color]="'#EBD9B9'"></app-small-topic>
+    <div class="small-card__content">
+      <div class="small-card__photo-content">
+        <a [routerLink]="['content', Id]">
+          <img src="{{photoCoversc}}" alt="Imagem do card">
+          <div class="small-card__content__title">
+
+            <h3>{{cardTitlesc}}</h3>
+            <p>{{cardDescriptionsc}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
 
   </div>
 </div>
+<!--
+[style.background-color]="'#E4DAEE'"
+[style.background-color]="'#EBD9B9'"
+ photoCover="https://images.seeklogo.com/logo-png/32/2/terco-brasil-logo-png_seeklogo-320240.png"
+    cardTitle="Rosario"
+    cardDescription="toda segunda feira"-->

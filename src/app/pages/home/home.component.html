@@ -1,40 +1,60 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
-
-<app-menu-title></app-menu-title>
-
 <div class="container__articles">
   <div class="articles__main">
 
-    <app-big-card></app-big-card>
-    <app-big-card></app-big-card>
-    <app-big-card></app-big-card>
-    <app-big-card></app-big-card>
+    <app-big-card Id="1"
+      photoCover="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/474573217_9440405235978654_7362085255436292227_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGGGPdH6KfTgtux50rsuplnq5IbfqSauuOrkht-pJq64_v4xOVrJSW0Xe-pMkmEt-oMpGKpigz2gai3VvR19nst&_nc_ohc=f3I2AlPZvQMQ7kNvgG7D2wM&_nc_oc=Adm9Zk61HjvwFcW6xfDbvutG2VnZoyU813KjQ3pJwG6EWFdSdnEdeKS8GoBs2UMXNE0&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=_qBTuoR_qkD_YMXlXQ93vQ&oh=00_AYHR-HbtqfvzgeDaIDf1blnba0ejuy-IRNwV10uJ0cFAcg&oe=67DFA0D6"
+      cardTitle="Nossa Senhora" cardDescription="Missa semanal"
+      cardDescriptionBy="Pela Capela"></app-big-card>
+    <app-big-card
+    Id="2"
+      photoCover="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/466732613_9033334470019068_1233766232252580849_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGxWwRGPKdJYHuyJB9VVGfL-R5F1Ud3Me_5HkXVR3cx7yzw7WOxsNhNIT9a9H9zbK5y4Z_qJ5pPE0vHYb4saTRW&_nc_ohc=adoYQPelR90Q7kNvgFd8dHp&_nc_oc=AdmSrz_TH-35dcHEgCWhYd0UAnKflzpprOLYLO5GKR7qDhTiDc-oeRBporAQXyT6QB8&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=Fa1RXOP-q7Y0y9nG_2S5Bw&oh=00_AYFKDit0lCjkT9Ff_5Ovq5wU2FNiRh1wGvpoYZ3AS1M_oA&oe=67DFB05E"
+      cardTitle="Missa do fogo" cardDescription="Peregrinação religiosa"
+      cardDescriptionBy="Por Sagrado Corração"></app-big-card>
+    <app-big-card
+    Id="3"
+      photoCover="https://scontent-gig4-2.xx.fbcdn.net/v/t39.30808-6/450252467_876142837872611_5935001729669064670_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEG-HY-ztqo5wnAPoQ-y3nXrPwLN5eDtS-s_As3l4O1L3wI2RTryicT5MVTq9EfY7JyJK5hiGd_6DVMgUNbWzMJ&_nc_ohc=HFwwocwxRNoQ7kNvgHQf-ma&_nc_oc=AdmWCmTodV-N4tipxS56vOblPpWWPB-ZuH2hIXFl9F4ETdVVy4_Na1KmVtzRnblm1SY&_nc_zt=23&_nc_ht=scontent-gig4-2.xx&_nc_gid=Hs2Mdg1iXAm_zdGNwxd1IQ&oh=00_AYESrj487Bdu3rP9a8y49jUiTPakfEqJvaHSlUNEl-KJoA&oe=67DFBF1A"
+      cardTitle="São Pedro, nosso padroeiro" cardDescription="Peregrinação religiosa"
+      cardDescriptionBy="Nosso padroeiro"></app-big-card>
+    <app-big-card
+    Id="4"
+      photoCover="https://scontent-gig4-2.xx.fbcdn.net/v/t39.30808-6/438302425_831970375623191_8547611019455415771_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeFkqMDWmdWvxAl3PTfW93SOYhXmqTDWynpiFeapMNbKeraB90BtCp_wQqTMC7ElENv1DFoAIpv273P6o6VML-WT&_nc_ohc=45lWcw38wrIQ7kNvgEivhhv&_nc_oc=Adl1TAC0sggnD_zCsO5hA1_HsdbRyCJFA_p0OAtNFTdRjxHKWteGD5R5NdAxGzeH0z4&_nc_zt=23&_nc_ht=scontent-gig4-2.xx&_nc_gid=kRwbj9rxwDEPzB70Lhzf9g&oh=00_AYFoZKZyHtqFIRZRnW_y4QSnZin7DPiRsURVIyBxX5KDPw&oe=67DFB946"
+      cardTitle="Primeira Comunhão" cardDescription="Primeira vez a Eucaristia"
+      cardDescriptionBy="Grupo da catequese"></app-big-card>
 
 
   </div>
 
-  <div class="articles__all">
-    <p>Artigos</p>
-    <span><a href="#">Ver todas</a></span>
-  </div>
+  
 
   <div class="topics">
 
     <div class="topics__main">
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
+      <app-small-card
+      [ngStyle]="{'background-color': '#E4DAEE'}"
+       Id="5" cardTitle="Eventos"
+        photoCover="https://img.freepik.com/vetores-premium/vetor-de-estoque-de-icone-de-cruz-crista-de-pincel-preto_189483-213.jpg"
+        photoCoversc="https://as1.ftcdn.net/jpg/02/21/00/80/1000_F_221008071_XaTcineADB96utlnzhbuHglKLYBuTaEr.jpg"
+        cardTitlesc="Anunciação do Senhor " cardDescriptionsc="25 de março"></app-small-card>
+
+      <app-small-card
+      [ngStyle]="{'background-color': '#ffaaaf'}"
+       Id="6" cardTitle="Reunioes"
+        photoCover="https://media.istockphoto.com/id/1396471306/pt/vetorial/hands-folded-in-prayer-with-crucifix-on-beads-pray-for-god-faith-and-hope-concept-vector.jpg?s=612x612&w=0&k=20&c=pJsIM6gcZef0qwnXYD1ADBvkRTjLS_dy44bPFch13vE="
+        photoCoversc="https://images.seeklogo.com/logo-png/32/2/terco-brasil-logo-png_seeklogo-320240.png"
+        cardTitlesc="Sagrado coração" cardDescriptionsc="Toda ultima sexta do mes "></app-small-card>
+
+      <app-small-card
+      [ngStyle]="{'background-color': '#EBD9B9'}"
+       Id="7" cardTitle="Datas Comemorativas"
+        photoCover="https://static.vecteezy.com/ti/vetor-gratis/p1/6692012-calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-vector-illustration-for-graphic-and-web-design-gratis-vetor.jpg"
+        photoCoversc="https://acdn-us.mitiendanube.com/stores/001/212/565/products/saopedro_11-145b4d4ba101fd9f1e15921617039810-640-0.jpg"
+        cardTitlesc="São Pedro " cardDescriptionsc="Diversos Dias "></app-small-card>
+
 
     </div>
   </div>
 
-  <footer>
 
-    <app-footer></app-footer>
-
-  </footer>
 
 
 </div>
